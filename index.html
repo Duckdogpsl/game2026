@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Computer Game Development 2026</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            min-height: 100vh;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        header h1 {
+            font-size: 2.5em;
+            background: linear-gradient(90deg, #e94560, #ff6b6b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 10px;
+        }
+        .course-year {
+            display: inline-block;
+            padding: 8px 20px;
+            background: rgba(233, 69, 96, 0.2);
+            border: 1px solid rgba(233, 69, 96, 0.5);
+            border-radius: 25px;
+            color: #ff6b6b;
+            font-weight: bold;
+        }
+        .lab-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 20px;
+        }
+        .lab-card h2 {
+            color: #ff6b6b;
+            margin: 0 0 15px 0;
+            font-size: 1.8em;
+        }
+        .lab-number {
+            display: inline-block;
+            background: linear-gradient(135deg, #e94560, #ff6b6b);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            margin-right: 10px;
+        }
+        .lab-description {
+            color: #c0c0d0;
+            margin-bottom: 15px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 25px;
+            background: linear-gradient(135deg, #e94560, #ff6b6b);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+        .btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 20px rgba(233, 69, 96, 0.4);
+        }
+        .missions {
+            margin-top: 15px;
+            padding-left: 20px;
+            color: #c0c0d0;
+        }
+        .missions a {
+            color: #64ffda;
+            text-decoration: none;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+        .missions a:hover {
+            text-decoration: underline;
+        }
+        .simple-list {
+            list-style: none;
+            padding: 0;
+            margin-top: 15px;
+        }
+        .simple-list li {
+            padding: 10px 0;
+            color: #c0c0d0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .simple-list li:last-child {
+            border-bottom: none;
+        }
+        footer {
+            text-align: center;
+            padding: 30px 0;
+            color: #8080a0;
+        }
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Portfolio - Computer Game Development</h1>
+            <span class="course-year">2026</span>
+        </header>
+        <main>
+            <section class="lab-card">
+                <h2><span class="lab-number">Lab 1</span> Self Introduction</h2>
+                <p class="lab-description">Personal information, background, interests, and self-introduction</p>
+                <a href="lab1.html" class="btn">View Lab 1</a>
+            </section>
+            <section class="lab-card">
+                <h2><span class="lab-number">Lab 2</span> My First 2D Game</h2>
+                <p class="lab-description">Basic 2D game development with multiple missions</p>
+                <ul class="missions">
+                    <li>Mission 1: <a href="GAME21.html">game21.html</a></li>
+                    <li>Mission 2: <a href="GAME22.html">game22.html</a></li>
+                </ul>
+            </section>
+            <section class="lab-card">
+                <h2><span class="lab-number">Lab 3 - 6</span> Remaining Labs</h2>
+                <p class="lab-description">Lab assignments and projects</p>
+                <ul class="simple-list">
+                    <li>Lab 3</li>
+                    <li>Lab 4</li>
+                    <li>Lab 5</li>
+                    <li>Lab 6</li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <p>Computer Game Development 2026</p>
+        </footer>
+    </div>
+</body>
+</html>
